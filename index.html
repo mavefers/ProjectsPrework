@@ -10,6 +10,42 @@
     <body>
         <p>Hola</p>
         Nuestro primer push!
+
+        Debemos ir a GitHub a crear un nuevo repositorio, el nombre del repositorio tiene que ser el mismo que asignamos al directorio padre
+        donde están los archivos con los que vamos a trabajar.
+
+        Un repositorio son lugares/espacios en donde almacenamos nuestros proyectos.
+        Cada repositorio pertecene a un proyecto en el que se este trabajando.
+
+        Comandos para crear un nuevo repositorio en la linea de comandos (Terminal):
+        Create a new repository on the command line (Terminal):
+            echo "# ProjectsPrework" >> README.md
+                Sirve para  crear un archivo README.md
+
+        Para los siguientes comandos, debemos estar dentro del directorio, en donde usaremos como repositorio.
+            git add .
+                Sirve para agregar todos los archivos que hay en nuestra carpeta, a nuestro repositorio.
+        
+            git add [nombreDeArchivo.extension]
+                Sirve para agregar un archivo específico a nuestro repositorio.
+        //
+
+        El siguiente paso sirve para identificarte, antes de hacer 'commit'; es necesario hacerlo.
+            git config --global user.email [my@email.com]
+                Sirve para declarar el correo de GitHub.
+            git config --global user.name [My Name]                 (my name = nombre de usuario)
+
+        git config --edit --global
+            Sirve para revisar si se guardaron los cambios de identificacion.
+        //
+
+        git commit -m "first commit"
+            Sirve para realizar el primer commit.
+        
+        -Los commit sirven para tener listos los archivos, para poder subirlos a nuestro repositorio.
+
+        El siguiente comando sirve para enviar el codigo a un servidor colaborativo, desde el servidor remoto.
+            git remote add origin https://github.com/mavefers/ProjectsPrework.git
     </body>
 </body>
 </html>
